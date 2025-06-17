@@ -1,5 +1,26 @@
 # Displays product listings
 
+# function filter_products(filters) exists (assuming filters is a dictionary of key-value pairs selected)
+function filter_products(filters):
+	filtered_items = []
+
+	for product in product_list:
+		# Set all products to match as default
+		# since there are no filters set yet
+		filter_match = true
+
+		# Check for indicated filters
+		for each value in filters
+			# If product's values does not match value in filters
+			if product[value] != filters[value]:
+				filter_match = false
+
+			else if product[value] == filters[value]:
+				filtered_items.append(product)
+
+	return filtered_items
+
+
 # Placeholder function:
 # function display_products()
 
