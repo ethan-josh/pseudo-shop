@@ -23,4 +23,23 @@ function filter_products(filters):
 
 # Placeholder function:
 # function display_products()
+function display_products():
+	# get user input for filters desired
+	# value may be null or blank
+	filters = {
+		name: user_input_name,
+		width: user_input_width,
+		height: user_input_height,
+		length: User_input_length,
+		weight: user_input_weight,
+		color: user_input_color,
+		brand: user_input_brand
+	}
+
+	# Use user's filter specifications as parameters for filter_products
+	# Store the output in items_to_show
+	items_to_show = filter_products(filters)
+	
+	# Display items
+	print items_to_show
 
