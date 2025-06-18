@@ -4,5 +4,6 @@
 # Feel free to modify this to simulate application flow
 
 # Run the app
-print "Welcome to the Pseudo Shop!"
+print "Hello there, user"
+print "Welcome to the Song Shop!"
 
