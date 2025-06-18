@@ -43,3 +43,22 @@ product_list = [
 
 ]
 
+
+#This function adds a new product to the product list
+FUNCTION add_product(name, width, height, length, weight, color, brand)
+	new_product = {
+	name:name,
+	width:width,
+	height:height,
+	length:length,
+	weight:weight,
+	color:color,
+	brand:brand,
+	}
+	APPEND new_product TO product_list
+END FUNCTION
+
+#Returns all products listed
+FUNCTION get_all_products()
+	RETURN product_list
+END FUNCTION
