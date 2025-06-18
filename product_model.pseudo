@@ -17,6 +17,7 @@ product_list = [
 		name: "M5 Computer",
 		width: 45,
 		height: 3,
+		width: 20,
 		length: 20,
 		weight: 3.0,
 		color: "black",
