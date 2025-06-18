@@ -28,3 +28,8 @@ FUNCTION add_product(name, width, height, length, weight, color, brand)
 	}
 	APPEND new_product TO product_list
 END FUNCTION
+
+#Returns all products listed
+FUNCTION get_all_products()
+	RETURN product_list
+END FUNCTION
