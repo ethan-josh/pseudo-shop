@@ -12,7 +12,36 @@
 # }
 
 # Placeholder product list
-item_list = []
+product_list = [
+	{
+		name: "M4 Computer",
+		width: 20,
+		height: 3,
+		length: 20,
+		weight: 3.0,
+		color: "black",
+		brand: "Fruit"
+	},
+	{
+		name: "M3 Computer",
+		width: 18,
+		height: 2,
+		length: 18,
+		weight: 4.0,
+		color: "silver",
+		brand: "Fruit"
+	},
+	{
+		name: "Basic Computer",
+		width: 30,
+		height: 5,
+		length: 20,
+		weight: 9.0,
+		color: "silver",
+		brand: "Deli"
+	},
+
+]
 
 
 #This function adds a new product to the product list
@@ -26,10 +55,10 @@ FUNCTION add_product(name, width, height, length, weight, color, brand)
 	color:color,
 	brand:brand,
 	}
-	APPEND new_product TO item_list
+	APPEND new_product TO product_list
 END FUNCTION
 
 #Returns all products listed
 FUNCTION get_all_products()
-	RETURN item_list
+	RETURN product_list
 END FUNCTION
