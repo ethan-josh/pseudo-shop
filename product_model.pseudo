@@ -16,7 +16,7 @@ product_list = []
 
 
 #This function adds a new product to the product list
-FUNCTION add_product(name, width, height, length, weight, color, brand_
+FUNCTION add_product(name, width, height, length, weight, color, brand)
 	new_product = {
 	name:name,
 	width:width,
