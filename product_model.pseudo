@@ -11,8 +11,9 @@
 #     brand: "Generic"
 # }
 
-# Placeholder product list
-product_list = [
+
+# Placeholder product list # I am adding this to cause error
+product_items = [
 	{
 		name: "M4 Computer",
 		width: 20,
