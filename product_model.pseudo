@@ -14,3 +14,17 @@
 # Placeholder product list
 product_list = []
 
+
+#This function adds a new product to the product list
+FUNCTION add_product(name, width, height, length, weight, color, brand_
+	new_product = {
+	name:name,
+	width:width,
+	height:height,
+	length:length,
+	weight:weight,
+	color:color,
+	brand:brand,
+	}
+	APPEND new_product TO product_list
+END FUNCTION
