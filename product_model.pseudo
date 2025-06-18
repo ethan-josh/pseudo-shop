@@ -12,5 +12,7 @@
 # }
 
 # Placeholder product list
-product_list = []
+products_lists = [
+	Sample
+]
 
