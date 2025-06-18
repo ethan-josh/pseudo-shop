@@ -14,7 +14,7 @@
 # Placeholder product list
 product_list = [
 	{
-		name: "M4 Computer",
+		name: "M5 Computer",
 		width: 20,
 		height: 3,
 		length: 20,
@@ -23,7 +23,7 @@ product_list = [
 		brand: "Fruit"
 	},
 	{
-		name: "M3 Computer",
+		name: "M4 Computer",
 		width: 18,
 		height: 2,
 		length: 18,
@@ -32,13 +32,13 @@ product_list = [
 		brand: "Fruit"
 	},
 	{
-		name: "Basic Computer",
+		name: "Macbook Computer",
 		width: 30,
 		height: 5,
 		length: 20,
 		weight: 9.0,
 		color: "silver",
-		brand: "Deli"
+		brand: "Apple"
 	},
 
 ]
