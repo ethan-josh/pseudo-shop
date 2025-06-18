@@ -25,16 +25,5 @@ function create_user(name, email, password)
 			return success
 
 # function login_user(email, password)
-function login_user(email, password)
-	for user in user_data:
-		if email == user.email:
-			if password == user.password:
-				return success
-			else:
-				print "This email or password is incorrect."
-				return failure
-		else:
-			print "This email does not exist."
-			return failure
 
 
