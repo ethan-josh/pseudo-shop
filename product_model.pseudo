@@ -12,5 +12,34 @@
 # }
 
 # Placeholder product list
-product_list = []
+product_list = [
+	{
+		name: "M4 Computer",
+		width: 20,
+		height: 3,
+		length: 20,
+		weight: 3.0,
+		color: "black",
+		brand: "Fruit"
+	},
+	{
+		name: "M3 Computer",
+		width: 18,
+		height: 2,
+		length: 18,
+		weight: 4.0,
+		color: "silver",
+		brand: "Fruit"
+	},
+	{
+		name: "Basic Computer",
+		width: 30,
+		height: 5,
+		length: 20,
+		weight: 9.0,
+		color: "silver",
+		brand: "Deli"
+	},
+
+]
 
