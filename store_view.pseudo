@@ -43,3 +43,17 @@ function display_products():
 	# Display items
 	print items_to_show
 
+
+#Display each product in a proper format
+FUNCTION display_products()
+	products=get_all_products
+	
+	FOR EACH product in products
+	PRINT "Product Name: " + product.name
+	PRINT "Brand: " + product.brand
+	PRINT "Color: " + product.color
+	PRINT "Dimensions (Width x Height x Length): " TO_STRING(product.width) + "x" +TO_STRING(product.height) + "x" + TO_STRING(product.length)
+	PRINT "Weight: " + TO_STRING(product.weight) + " kg"
+	PRINT "---------------------------------------------------"
+	END FOR
+END FUNCTION
