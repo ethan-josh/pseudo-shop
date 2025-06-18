@@ -12,7 +12,7 @@ FUNCTION display_products()
 	PRINT "Product Name: " + product.name
 	PRINT "Brand: " + product.brand
 	PRINT "Color: " + product.color
-	PRINT "Dimensions (Width x Height x Length): " TO_STRING(product.width) + "x" +TO_STRING(product.height) + TO_STRING(product.length)
+	PRINT "Dimensions (Width x Height x Length): " TO_STRING(product.width) + "x" +TO_STRING(product.height) + "x" + TO_STRING(product.length)
 	
 	END FOR
 END FUNCTION
